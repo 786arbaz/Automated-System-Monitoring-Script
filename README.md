@@ -1,4 +1,3 @@
-Certainly! Here's a simple README template for your GitHub repository:
 
 ---
 
