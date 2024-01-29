@@ -19,13 +19,13 @@ This Bash script is designed for basic system monitoring. It continuously checks
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/system-monitor-script.git
+   git clone https://github.com/yourusername/Automated-system-monitor-script.git
    ```
 
 2. Navigate to the script directory:
 
    ```bash
-   cd system-monitor-script
+   cd Automated-system-monitor-script
    ```
 
 3. Make the script executable:
