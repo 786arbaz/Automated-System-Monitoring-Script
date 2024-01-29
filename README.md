@@ -31,13 +31,13 @@ This Bash script is designed for basic system monitoring. It continuously checks
 3. Make the script executable:
 
    ```bash
-   chmod +x system_check.sh
+   chmod +x sysinfo.sh
    ```
 
 4. Run the script:
 
    ```bash
-   ./system_check.sh
+   ./sysinfo.sh
    ```
 
    The script will continuously monitor and display system parameters with a 5-second interval between each check.
