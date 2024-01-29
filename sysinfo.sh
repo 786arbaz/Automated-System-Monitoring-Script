@@ -1,6 +1,9 @@
 #!/bin/bash
 # Basic System Parameters Check Script
 
+# Get the current system user
+current_user=$(whoami)
+
 # Function to check CPU usage
 check_cpu() {
   cpu_usage=$(top -bn1 | awk '/Cpu/ { print $2}')
@@ -33,6 +36,7 @@ check_network() {
 while :
 do
   echo "------------------------"
+  echo "System User: ${current_user}"
   check_cpu
   check_memory
   check_disk
